@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="he">
+<head>
+  <meta charset="UTF-8">
+  <title>אלומות יוסף - צימרים בגליל המערבי</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>אלומות יוסף</h1>
+    <nav>
+      <a href="#gallery">גלריה</a>
+      <a href="#contact">צור קשר</a>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <h2>חופשה יוקרתית בגליל המערבי</h2>
+    <p>4 סוויטות פרטיות עם בריכה מחוממת וג'קוזי</p>
+    <button onclick="document.getElementById('contact').scrollIntoView()">הזמן עכשיו</button>
+  </section>
+
+  <section id="gallery">
+    <h2>גלריית תמונות</h2>
+    <div class="gallery">
+      <img src="images/suite1.jpg" alt="סוויטה 1">
+      <img src="images/suite2.jpg" alt="סוויטה 2">
+      <img src="images/pool.jpg" alt="בריכה">
+      <img src="images/jacuzzi.jpg" alt="ג'קוזי">
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>צור קשר</h2>
+    <form>
+      <input type="text" placeholder="שם מלא" required>
+      <input type="email" placeholder="אימייל" required>
+      <textarea placeholder="הודעה"></textarea>
+      <button type="submit">שלח</button>
+    </form>
+  </section>
+
+  <!-- בוט Tidio -->
+  <script src="//code.tidio.co/YOUR-TIDIO-CODE.js" async></script>
+</body>
+</html>
