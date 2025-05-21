@@ -1,14 +1,15 @@
-
 <!DOCTYPE html>
 <html lang="he">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>אלומות יוסף - צימרים בגליל המערבי</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
     <h1>אלומות יוסף</h1>
+    <p>צימרים יוקרתיים בגליל המערבי</p>
     <nav>
       <a href="#gallery">גלריה</a>
       <a href="#contact">צור קשר</a>
@@ -16,32 +17,41 @@
   </header>
 
   <section id="hero">
-    <h2>חופשה יוקרתית בגליל המערבי</h2>
-    <p>4 סוויטות פרטיות עם בריכה מחוממת וג'קוזי</p>
-    <button onclick="document.getElementById('contact').scrollIntoView()">הזמן עכשיו</button>
+    <div class="hero-content">
+      <h2>חופשה מושלמת עם נוף פסטורלי</h2>
+      <p>4 סוויטות מפנקות עם בריכה מחוממת, ג'קוזי וספא</p>
+      <a href="#contact" class="btn">דברו איתנו</a>
+    </div>
   </section>
 
   <section id="gallery">
-    <h2>גלריית תמונות</h2>
+    <h2>גלריה</h2>
     <div class="gallery">
-      <img src="images/suite1.jpg" alt="סוויטה 1">
-      <img src="images/suite2.jpg" alt="סוויטה 2">
-      <img src="images/pool.jpg" alt="בריכה">
-      <img src="images/jacuzzi.jpg" alt="ג'קוזי">
+      <img src="images/suite1.jpg" alt="סוויטה 1" />
+      <img src="images/suite2.jpg" alt="סוויטה 2" />
+      <img src="images/pool.jpg" alt="בריכה" />
+      <img src="images/jacuzzi.jpg" alt="ג'קוזי" />
     </div>
   </section>
 
   <section id="contact">
     <h2>צור קשר</h2>
-    <form>
-      <input type="text" placeholder="שם מלא" required>
-      <input type="email" placeholder="אימייל" required>
-      <textarea placeholder="הודעה"></textarea>
-      <button type="submit">שלח</button>
-    </form>
+    <p>יש לכם שאלה או רוצים להזמין? דברו איתנו בצ'אט למטה או 
+      <a href="https://wa.me/972501234567" target="_blank">שלחו לנו WhatsApp</a>.
+    </p>
   </section>
 
-  <!-- בוט Tidio -->
-  <script src="//code.tidio.co/YOUR-TIDIO-CODE.js" async></script>
+  <footer>
+    <p>© 2025 אלומות יוסף. כל הזכויות שמורות.</p>
+  </footer>
+
+  <div class="whatsapp-float">
+    <a href="https://wa.me/972501234567" target="_blank">
+      <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" alt="WhatsApp" />
+    </a>
+  </div>
+
+  <!-- Tidio Bot (החלף בקוד שלך מ-Tidio) -->
+  <script src="//code.tidio.co/YOUR_TIDIO_CODE.js" async></script>
 </body>
 </html>
